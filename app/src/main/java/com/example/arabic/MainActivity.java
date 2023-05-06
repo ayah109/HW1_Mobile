@@ -77,9 +77,30 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
-                    Toast.makeText(MainActivity.this, "CheckBox1 is checked", Toast.LENGTH_SHORT).show();
-//                    MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.drawable.)
-//                    mp.start();
+                    Toast.makeText(MainActivity.this, "أحسنت يا بطل", Toast.LENGTH_SHORT).show();
+                    MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.clap);
+                    mp.start();
+                }
+            }
+        });
+
+        checkBox4.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    Toast.makeText(MainActivity.this, "أحسنت يا بطل", Toast.LENGTH_SHORT).show();
+                    MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.clap);
+                    mp.start();
+                }
+            }
+        });
+        checkBox5.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    Toast.makeText(MainActivity.this, "أحسنت يا بطل", Toast.LENGTH_SHORT).show();
+                    MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.clap);
+                    mp.start();
                 }
             }
         });
@@ -99,6 +120,9 @@ public class MainActivity extends AppCompatActivity {
                 checkBox3.setVisibility(View.VISIBLE);
                 checkBox5.setVisibility(View.VISIBLE);
                 checkBox6.setVisibility(View.VISIBLE);
+
+                MediaPlayer mp1 = MediaPlayer.create(MainActivity.this, R.raw.gem);
+                mp1.start();
             }
         });
 
@@ -165,6 +189,8 @@ public class MainActivity extends AppCompatActivity {
                 checkBox5.setVisibility(View.VISIBLE);
                 checkBox6.setVisibility(View.VISIBLE);
                 setCheckboxValuesForButton(new CheckBox[]{checkBox1, checkBox2, checkBox3,checkBox4, checkBox5, checkBox6}, checkBoxValues.BUTTON_E_VALUES);
+                MediaPlayer mp2 = MediaPlayer.create(MainActivity.this, R.raw.alef);
+                mp2.start();
             }
         });
 

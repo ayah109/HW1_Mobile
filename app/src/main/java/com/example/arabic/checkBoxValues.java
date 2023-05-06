@@ -2,15 +2,17 @@ package com.example.arabic;
 
 public class checkBoxValues {
     public static final String[] BUTTON_A_VALUES = {"جوهرة", " لوح", "طاولة ","مجد", "برج", "خوخ"};
-    public static final String[] BUTTON_B_VALUES = {"مسرح", "ثائر", "مثال","كتاب", "وطن", "ثلث"};
-    public static final String[] BUTTON_C_VALUES = {"باب", "تمر", "خزانة","أكل", "متر", "تهاني"};
-    public static final String[] BUTTON_D_VALUES = {"شمس", "برتقال", "مشروع","شراب", "قلب", "دمية"};
+    public static final String[] BUTTON_B_VALUES = {"ثائر","مسرح","كتاب","مثال", "ثلث" ,"وطن"};
+    public static final String[] BUTTON_C_VALUES = { "تمر","باب",  "متر", "تهاني","خزانة","أكل"};
+    public static final String[] BUTTON_D_VALUES = { "برتقال","شمس", "مشروع","شراب", "قلب", "دمية"};
     public static final String[] BUTTON_E_VALUES = {"ألوان", "عملية", "عصير","أمجد", "مأزق", "عقرب"};
-    public static final String[] BUTTON_F_VALUES = {"حيوان", "مريض", "طاقم","رمح", "سحابة", "بحر"};
-    public static final String[] BUTTON_G_VALUES = {"ربيع", "دائرة", "ذرة","كابتن", "رأس", "منفضة"};
-    public static final String[] BUTTON_H_VALUES = {"مديد", "صفر", "دائرة","صوت", "زهرة", "مقعد"};
-    public static final String[] BUTTON_I_VALUES = {"خوخ", "خروف", "حبل","طائر", "داخل", "مساء"};
-    public static final String[] BUTTON_J_VALUES = {"حمل", "محلول", "فحم","راية", "فرح", "ثمانية"};
+
+    public static final String[] BUTTON_F_VALUES = { "مريض","حيوان", "طاقم","رمح", "بحر", "سحابة"};
+    public static final String[] BUTTON_G_VALUES = {"ذرة`", "دائرة", "ربيع","بذور", "ذبابة", "منفضة"};
+    public static final String[] BUTTON_H_VALUES = {"مديد", "صفر", "صوت","دائرة", "مقعد" ,"زهرة"};
+    public static final String[] BUTTON_I_VALUES = {"خوخ",  "حبل","طائر", "خروف","داخل", "مساء"};
+    public static final String[] BUTTON_J_VALUES = {"حمل","راية", "فرج", "محلول", "فحم", "ثمانية"};
+
     public static final String[] BUTTON_K_VALUES = {"طاقة", "بلد", "ضابط","قارب", "ضرس", "ثور"};
     public static final String[] BUTTON_L_VALUES = {"حكيم", "صديق", "صلاة","صرصار", "شمس", "صدقة"};
     public static final String[] BUTTON_M_VALUES = {"شرشبيل", "حمار", "شرس","زوجة", "بشارة", "رقم"};
